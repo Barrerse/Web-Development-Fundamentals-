@@ -1,0 +1,42 @@
+/* 
+  TODO: Label selector type 
+  asterisk selects ALL elements, applies these font-family values to ALL elements
+*/
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* TODO: Label selector type */
+body {
+  background-color: lemonchiffon;
+}
+
+/* selecting all headers, footers */
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+
+/* selecting ALL figure elements,, applying these style rules to them */
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* 
+  TODO: Label selector type 
+   selecting ALL elements that have attribute class with the value "highlighted-text"
+*/
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* TODO: Label selector type */
+#contact-section {
+  background-color: #f0ead6;
+}
